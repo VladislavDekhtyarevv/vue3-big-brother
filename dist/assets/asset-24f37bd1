@@ -1,0 +1,39 @@
+
+.container-brother {
+  margin: auto;
+  display: flex;
+  position: relative;
+  width: max-content;
+}
+
+.container-brother__image {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 100%;
+}
+.container-brother__eye {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  z-index: 2;
+  top: 24%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.container-brother__pupil {
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  border-radius: 50%;
+}
+.container-brother__eye.left {
+  left: 35%;
+}
+.container-brother__eye.left {
+  right: 35%;
+}
+
