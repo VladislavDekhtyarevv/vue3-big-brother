@@ -16,7 +16,7 @@ import App from './App.vue';
 import BigBrother from "vue3-big-brother";
 
 createApp(App)
-    .use(VueExcelEditor)
+    .use(BigBrother)
     .mount('#app')
 ```
 
