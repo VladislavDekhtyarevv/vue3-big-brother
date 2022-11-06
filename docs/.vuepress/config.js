@@ -1,3 +1,4 @@
-// module.exports = {
-//     base: '/vue3-big-brother/'
-// }
+let config = {
+    base: '/vue3-big-brother/'
+}
+export default config;
